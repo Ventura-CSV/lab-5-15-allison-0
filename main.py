@@ -2,6 +2,8 @@
 def consonant(strval):
     vowels = ('a','e','i','o','u')
     for c in strval:
+        if c.lower() not in vowels:
+            yield c
 
 
 
